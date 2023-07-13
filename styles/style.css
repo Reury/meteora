@@ -1,0 +1,17 @@
+/* Css import files */
+@import url("header.css");
+@import url("body.css");
+
+
+/* Import fonts  */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+:root {
+    --cor-preto: #000000;
+    --cor-verde: #DAFF01; 
+    --cor-fundo-menu: #343A40;  
+    --cor-branco: #FFFFFF;
+}
+
+

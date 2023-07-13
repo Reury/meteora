@@ -1,0 +1,89 @@
+.area__pesquisa {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.area__pesquisa-button{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: white;
+    border:  1 px solid black;
+    outline: none;
+    
+    
+}
+
+.area__pesquisa #pesquisa{
+    height: 37px;
+    width: 225px;
+
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+ 
+.carousel {
+    display: flex; 
+    transition: transform 0.5s ease-in-out;
+ }
+
+ .slide {
+    flex: 100% 0 100%;
+  }
+
+  .prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.categorias {
+  text-align: center;
+}
+  
+.prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+.categorias__title{
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+  }
+
+
+  .card {
+    width: 40%;
+    height: 192px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin: 15px;
+  }
