@@ -15,3 +15,68 @@
 }
 
 
+.produtos h3{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+.protudos__card {
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed black;
+}
+
+.protudos__card div {
+  margin: 10px 10px 20px 10px;
+}
+
+.protudos__card  h4{
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  font-family: 'Inter', sans-serif;
+}
+
+.protudos__card + p{
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.protudos__card p:nth-of-type(2){
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+
+}
+
+.protudos__card  a{
+  display: inline-block;
+  width: 102px;
+  height: 20px;
+  padding: 9px 16px; /* Adjust padding as needed for spacing around text */
+  background-color: #9353FF;
+  color: #ffffff;
+  border: 1px solid #2980b9;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+
+}
+
+
+
